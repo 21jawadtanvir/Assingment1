@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body{
     background-color: rgb(255, 255, 241);
+    margin: 0%;
+    top: 0%;
+    width: 100%;
 }
 #sections{
     margin-top: 20px;
@@ -38,8 +41,8 @@ body{
     margin-left: 130px;
     margin-top: 70px;
 }
-section img{
-    width: 45%;
+#sections img{
+    width: 55%;
     margin-left: 250px;
     margin-top: -30px;
 }
@@ -103,3 +106,125 @@ section img{
     border-radius: 10px;
     background-color: rgb(241, 226, 136);
 }
+
+.aboutsection {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-right:150px ;
+}
+.aboutsection img{
+    width: 35%;
+    margin-left: 170px;
+}
+.aboutuswriting{
+    margin-left: -410px;
+    font-family:'Poppins', sans-serif ;
+}
+.aboutuswriting h1{
+    font-size: 25px;
+}
+.aboutuswriting p{
+    font: 20px;
+    margin-bottom: 20px;
+}
+#abouth1{
+    margin-top: -20px;
+}
+.aboutuswriting a{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: rgb(235, 84, 64) ;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.ccommunity{
+    display: flex;
+    font-family:'Poppins', sans-serif ;
+    margin-left: 170px;
+    margin-bottom: 100px;
+}
+.ccommunity img{
+    width: 45%;
+    margin-left: 230px;
+}
+.ccommunity a{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: rgb(235, 84, 64) ;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.ccommunity h1{
+    font-size: 25px;
+}
+.ccommunity p{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+#communityh1{
+    margin-top: -20px;
+}
+#footer{
+    background-color: rgb(243, 186, 153);
+    color: rgb(7, 7, 7);
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.footerc p{
+    font-family:'Poppins', sans-serif ;
+    color: #e41240;
+    font-size: 15px;
+   
+}
+.footerh1{
+    font-family: 'Great Vibes', cursive;
+    color: rgb(243, 55, 48);
+    font-size: 35px;
+}
+
+.comingc{
+    text-align: center;
+    font-size: 35px;
+    font-family:'Poppins', sans-serif ;
+    color: #e41240;
+    letter-spacing: 10px;
+}
+#news{
+    display: flex;
+}
+.newsc img{
+    width: 25%;
+    margin-left: 50px;
+    background-image: url();
+}
+.newsc{
+    font-family:'Poppins', sans-serif ;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.newsc h1{
+    font-size: 35px;
+    
+}
+.newsc span{
+    color: #fa1244;
+}
+.newsc p{
+    font-size: 15px;
+    
+}
+.newswriting{
+    margin-left: 100px;
+}
+
