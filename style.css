@@ -63,7 +63,9 @@ body{
     font-size: 30px;
     font-family:'Poppins', sans-serif ;
 }
-
+.servicesh1 span{
+    color: #fa1244;
+}
 .services{
     display: flex;
     margin-top: 40px;
@@ -191,7 +193,10 @@ body{
     color: rgb(243, 55, 48);
     font-size: 35px;
 }
+.footerh1 span{
+    color: #7a0a22;
 
+}
 .comingc{
     text-align: center;
     font-size: 35px;
